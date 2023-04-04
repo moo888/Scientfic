@@ -1,0 +1,202 @@
+*{box-sizing: border-box;}
+body{
+	background: url('../img/Rectangle 16.png');
+	background-color: #EFF9FC;
+	color: #0E3957;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+	font-size: 24px;
+}
+
+/*Start Our Navbar*/
+.navbar .fl-right p{    
+	font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+/*End Our Navbar*/
+
+/*Start Our Sigin*/
+.row{margin-top: 100px;}
+.right-side h2{position: absolute;
+    color: #fff;
+    z-index: 999;
+    top: 125px;
+    padding: 10px;
+line-height: 1.9em;
+font-size: 30px!important;}
+.sigin .row .center{text-align: center;}
+.sigin .row .center .timer{display: flex;}
+.sigin .row .center .timer p{
+	background: #fff;
+	font-size: 32px;
+	font-weight: bold;
+	margin-right: 3%;
+	width: 14%;
+	padding: 20px 0px;
+	border-radius: 10px;
+box-shadow: 0px 5px 10px #0e39571a;
+height: 107px;
+}
+.sigin .row .center .timer p span{
+	font-size: 16px;
+	position: relative;
+	top: -18px;}
+	.sigin .row .center .hsm{
+		font-size: 20px;
+	}
+.sigin .row .center .hsm span{
+color: #E84B5C;
+    font-size: 56px;
+    float: right;
+    position: relative;
+    right: 22%;
+    font-weight: bold;
+    top: -12px;}
+.sigin .row h2{font-size: 36px;font-weight: bold;}
+.sigin .row .im-1::before{
+    content: "";
+    position: absolute;
+}
+.sigin .row .im-1{
+	object-fit: cover;
+position:relative;
+width: 100%;
+height: 459px;
+box-shadow: 0px 5px 10px #0E39571A;
+border-radius: 0px 30px 30px 0px;
+opacity: 0.69;}
+.left-side{
+background: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 20px 20px 20px;
+box-shadow: 0px 5px 10px #0E39571A;}
+.con-di{    
+	border: 1px solid #0e395754;
+    margin: 15px 10px;
+    border-radius: 5px;
+    color: #0E3957;}
+.con-di i {padding-right: 3%;}
+.con-di input{width: 87%;
+border: none;
+padding: 5%;
+}
+.left-side p{text-align: center;}
+.fived{    
+    font-weight: bold;
+	color: #ef1414;
+    padding: 3px;
+    border-radius: 5px;
+    background: #df0e0e17;}
+.fourd{
+	color:#0E3957;    
+	font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+    background: #002eff0f;}
+::placeholder{color: #0E3957;}
+.btn-updat{    margin: 10px;
+    width: 92%;
+    background: #48b2d1;
+    padding: 6px;
+    font-size: 15px;}
+.right-side{padding: 0;
+position: relative;}
+.right-side::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #007fff;
+    border-radius: 0px 30px 30px 0px
+}
+/*End Our Sigin*/
+
+/*Start our features*/
+.fa-chevron-down{
+	position: relative;
+    right: 48%;
+    background: #cf1414;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0px 3px 4px #0e3957;
+    bottom: 20px;}
+.features{    padding-bottom: 40px;background:#0E3957;border-top-right-radius: 100px;border-top-left-radius: 100px;
+margin-top: 40px;}
+.features h2,.Subscribe h2{text-align: center;color: #fff;font-size: 36px;padding: 40px;}
+.feu-di{
+        height: 185px;
+    padding: 16px 10px 30px 10px;
+    background: #fff;
+    margin-right: 1%;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 40px;}
+.feu-di i{    
+	color: #cf1414;
+    font-size: 36px;
+    background: #FEE8EA;
+    padding:20px 15px;
+    border-radius: 20px;
+    margin: 10px 0px 10px 10px;}
+
+/*End our features*/
+
+/*Start our Subscribe*/
+.Subscribe{background: #41ACBB;padding-bottom: 40px;}
+/*End our Subscribe*/
+
+/*Start our SubscribeTwo*/
+.SubscribeTwo{background:#0E3957;
+color: #fff;
+font-size: 24px;
+border-radius: 0px 0px 50px 50px;}
+.SubscribeTwo-cont{padding: 0 11%;
+position: relative;
+z-index: 1;}
+.f-l img{
+	width: 100%;
+}
+/*End our SubscribeTwo*/
+/*Start our Classes*/
+.f-read{background: #E84B5C;height: 70px;position: relative;z-index: -1;bottom: -25px;}
+.fl-right{float: right;}
+.fl-left{float: left;}
+.f-r{width: 48%;
+margin-left: 2%;
+margin-top: 15%;}
+.f-l{width: 48%;
+margin-right: 2%;}
+.btn-updatsecond{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 30px;
+}
+/*End Our Classes*/
+
+@media (min-width: 992px){
+
+.col-md-2 {width: 15.66666667%;}
+.col-md-6{width: 49%;}
+
+}
+@media (min-width: 1200px){
+
+.col-lg-2 {width: 15.66666667%;}
+
+}
+@media (min-width: 768px){
+.col-sm-6 {
+    width: 47%;
+}}
+@media (min-width: 998px){
+.col-lg-12 {
+    width: 100%;
+}
+.col-lg-2 {width: 15.66666667%;}
+}
+.sigin .row .center,.left-side{margin-top: 40px}
